@@ -1,0 +1,156 @@
+/*Styling the web page*/
+
+.navbar-brand img{  /*Adjusting the height of the menu bar*/
+    height: 120px;
+    width: auto;
+}
+
+.masthead{    /*Adjusting the image of pizza that goes in the masthead*/
+    height: 100vh;
+    width: 100%;
+    background-image: url('../img/pizza_banner.jpg');  /*Using a pizza photo for the background of the masthead*/
+    background-size: cover;
+}
+
+.masthead div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);  /*Making image opaque*/
+    display: flex;
+    align-items: center;       /*with this the h1 goes to the center*/
+    justify-content: center;  /*with this the h1 goes to the center*/
+}
+
+h1{
+    color:#f4f4f4; /* A nice white , nice to the eyes of the user*/
+    font-family: 'Raleway',sans-serif;
+    font-size: 120px;
+    font-weight: 600;
+    letter-spacing: 6px;
+
+}
+
+h2{
+    color:#198754; /* the green pantone that bootstrap uses for success */
+    font-family: 'Raleway',sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    padding: 3%;
+}
+
+h3,p,a,li,label,input{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+th,td {
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.submit-message{
+    text-align: center;
+}
+
+.form-check-label{
+    font-size: 17px;
+
+}
+
+footer{
+    background-color: #0e0e0e;  /* A nice color black , nice to the eyes of the user*/
+    height: 160px;
+    display: flex;
+}
+
+footer > div{
+    align-items: center;
+    justify-content: center;
+}
+h5{
+    font-family: 'Raleway',sans-serif;
+    font-size: 30px;
+    color: #f4f4f4;     /* A nice white , nice to the eyes of the user*/
+    align-items: center;
+    justify-content: center;
+    margin-top: 40%;
+    letter-spacing: 1px;
+}
+
+footer div:nth-child(1){
+    margin-left: 45%;     /* With this I move the text to the center of the footer*/
+}
+footer div:nth-child(2){
+    margin-left: auto;  /*With this I move the  Logo to the right corner*/
+    height: 160px;
+}
+
+footer div:nth-child(2) img{
+    width: auto;      /*Adjusting the image of the footer*/
+    height: 100%;
+}
+
+.form-group{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.form-horizontal{
+    margin-left: 8%;   /* adjusting to the center*/
+}
+
+form .col-sm-6.control-label {
+    width: 63%;   /* adjusting the label, because in the third input is longer than the rest*/
+}
+
+.form-horizontal div:nth-child(16){    /* this is for the div that contains the submit button*/
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-right: 17%;
+}
+
+.final img{    /* this is for the view.php page  */
+    width: 500px;
+    height: auto;
+    padding: 2%;
+}
+
+.final{         /* this is for the view.php page  */
+    display: flex;
+    justify-content: center;
+}
+
+.submit-message > p{
+    color:#198754;  /* the green pantone that bootstrap uses for success */
+    font-size: 50px;
+}
+
+.submit-message > p:nth-child(3){
+    color:#0e0e0e;
+}
+
+
+.submit-message > table{
+    margin-left: 27%;  /*this is for displaying the specifications of the order just entered */
+    text-align:center;
+    font-size: 30px;
+}
+
+.submit-message > table tr{
+    border-bottom: solid 1px #0e0e0e; /* adding a line at the bottom */
+}
+
+.submit-message > table tr:last-of-type{
+    border-bottom:none;    /* removing the last line bottom */
+}
+
+.submit-message > table  tr th{
+    background-color:#198754;  /* styling the labels of the table */
+    color: #f4f4f4;
+
+}
